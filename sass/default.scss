@@ -1,0 +1,48 @@
+@import "bootstrap.scss";
+html{
+	height: 100%;
+}
+body{
+	background: url('../img/wallpaper.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+.android-header{
+	background: #000;
+	color: #3792b4;
+	padding: 5px 15px;
+	i{
+		margin-right: 10px;
+	}
+}
+.overflow{
+	overflow: auto;
+}
+.android-screen{
+	max-width: 600px;
+	margin: 20px auto;
+	color: #fff;
+	text-align: center;
+}
+#main-time{
+	font-size: 70px;
+}
+#main-date{
+	font-size: 20px;font-weight: bold;
+}
+#pattern-lock-container{
+	margin: 20px auto 0;
+	position: relative;
+	width: 315px;	
+	height: 360px;
+	#pattern-lock,#pattern-lock-line{
+		width: 315px;	
+		height: 315px;
+		margin: auto;
+		position: absolute;
+		bottom: 0;left: 0;
+	}
+	
+}
